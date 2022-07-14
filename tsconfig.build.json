@@ -1,0 +1,35 @@
+{
+  "extends": "../../../../tsconfig.build.json",
+  "compilerOptions": {
+    "module": "es2015",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "isolatedModules": true,
+    "plugins": [],
+    "rootDir": "./src",
+  },
+  "include": [
+    "./src/**/*",
+    "./.eslintrc.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "test",
+    "**/index.default.mts",
+    "./src/**/__tests__",
+    "./src/playground.ts"
+  ]
+}

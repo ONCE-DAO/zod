@@ -1,11 +1,13 @@
 {
   "name": "zod",
-  "version": "3.17.3",
+  "version": "test-component",
   "description": "TypeScript-first schema declaration and validation library with static type inference",
   "main": "./lib/index.js",
+  "namespace": "dev.zod",
   "types": "./index.d.ts",
   "module": "./lib/index.mjs",
   "dependencies": {},
+  "type": "module",
   "exports": {
     ".": {
       "require": "./lib/index.js",
@@ -80,17 +82,17 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^7.0.4",
-    "jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
     "lint-staged": "^12.3.7",
     "nodemon": "^2.0.15",
     "prettier": "^2.6.0",
     "pretty-quick": "^3.1.3",
     "rollup": "^2.70.1",
-    "ts-jest": "^27.1.3",
     "ts-morph": "^14.0.0",
     "ts-node": "^10.7.0",
     "tslib": "^2.3.1",
-    "typescript": "4.1"
+    "typescript": "4.7.2"
   },
   "lint-staged": {
     "src/*.ts": [
