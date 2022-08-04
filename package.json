@@ -3,7 +3,7 @@
   "version": "test-component",
   "description": "TypeScript-first schema declaration and validation library with static type inference",
   "main": "./lib/index.js",
-  "namespace": "dev.zod",
+  "namespace": "dev",
   "types": "./index.d.ts",
   "module": "./lib/index.mjs",
   "dependencies": {},
